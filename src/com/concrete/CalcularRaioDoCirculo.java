@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class CalcularRaioDoCirculo {
 
     public static void main(String[] args) {
+    	
         Scanner scan = new Scanner(System.in);
 
         double raio, area;
