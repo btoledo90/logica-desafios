@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class CircuitoEletricoAmpere {
 	public static void main(String[] args) {
-
 		Scanner sc = new Scanner(System.in);
 
 		double resistenciaOhms, tensaoVolts, correnteAmperes;
@@ -16,8 +15,7 @@ public class CircuitoEletricoAmpere {
 
 		correnteAmperes = tensaoVolts / resistenciaOhms;
 
-		System.out.println("A Tensão em volts é: " + correnteAmperes);
+		System.out.println("A Tensão em amperes é: " + correnteAmperes);
 
 	}
-
 }
