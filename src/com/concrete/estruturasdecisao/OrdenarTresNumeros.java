@@ -15,7 +15,7 @@ public class OrdenarTresNumeros {
 		numeroB = sc.nextInt();
 		System.out.println("Digite o terceiro numero: ");
 		numeroC = sc.nextInt();
-		
+
 		System.out.println("Os valores em ordem crescente: ");
 
 		if (numeroA < numeroB) {
@@ -35,9 +35,9 @@ public class OrdenarTresNumeros {
 				System.out.println(numeroB + "\n" + numeroC + "\n" + numeroA);
 			}
 		} else {
-			System.out.println(numeroC + "\n" + numeroB+ "\n" + numeroA);
+			System.out.println(numeroC + "\n" + numeroB + "\n" + numeroA);
 		}
-		
+		sc.close();
 
 	}
 
