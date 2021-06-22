@@ -40,8 +40,12 @@ public class Calculadora {
 			break;
 
 		case 4:
-			divisao = num1 / num2;
-			System.out.println("O resultado da divisão é: " + divisao);
+			if (num1 < num2) {
+				System.out.println("Impossivel realizar a divisão");
+			} else {
+				divisao = num1 / num2;
+				System.out.println("O resultado da divisão é: " + divisao);
+			}
 			break;
 
 		default:
@@ -49,6 +53,5 @@ public class Calculadora {
 		}
 
 		sc.close();
-
 	}
 }
