@@ -3,7 +3,7 @@ package com.concrete.orientadoaobjetos;
 import java.util.Locale;
 import java.util.Scanner;
 
-import com.concrete.orientadoaobjetosentities.Retangulo;
+import com.concrete.entities.Retangulo;
 
 public class RetanguloTeste {
 

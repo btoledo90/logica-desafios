@@ -1,4 +1,4 @@
-package com.concrete.orientadoaobjetosentities;
+package com.concrete.entities;
 
 public class Retangulo {
 
